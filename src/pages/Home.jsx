@@ -9,7 +9,7 @@ const Home = () => {
 					<span className="mr-2">
 						<Icon icon="ph:arrow-right-bold" />
 					</span>
-					Hi, Im <span className="text-purple-blue ml-2">Cornelia 👩🏻‍💻</span>
+					Hi, I'm <span className="text-purple-blue ml-2">Cornelia 👩🏻‍💻</span>
 				</p>
 			</div>
 			<p className=" text-xl ">
