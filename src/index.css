@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+html {
+	font-size: 62.5%;
+}
+nav {
+	margin: 4em;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	display: flex;
+	gap: 3.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 1.6rem;
+}
+
+nav ul li a.active:before {
+	position: absolute;
+	content: "";
+	width: 35%;
+	height: 1px;
+	border-bottom: 2px solid black;
+	bottom: -6px;
+}
+
+nav ul li a:before {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 1px;
+	border-bottom: 2px solid rgb(152, 152, 152);
+	bottom: -6px;
+	transition: width 0.3s;
+}
+nav ul li a:hover:before {
+	width: 35%;
+}
+.custom-shape-divider-bottom-1697258373 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697258373 svg {
+	position: relative;
+	display: block;
+	width: calc(191% + 1.3px);
+	height: 218px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1697258373 .shape-fill {
+	fill: #9d8787;
+}
+@media (max-width: 768px) {
+	.custom-shape-divider-bottom-1697258373 {
+		display: none; /* Hide the element on screens narrower than 768px */
+	}
+}
+
+/* for mobie view wave */
+/* Common styles for both mobile and tablet views */
+.custom-shape-divider-bottom-1697262836 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1697262836 svg {
+	position: relative;
+	display: block;
+	width: calc(300% + 1.3px);
+	height: 369px;
+	transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1697262836 .shape-fill {
+	fill: #9d8787;
+}
+
+/** For mobile and tablet devices (e.g., iPad Mini) **/
+@media (max-width: 1023px) {
+	.custom-shape-divider-bottom-1697262836 {
+		/* Show the element on mobile and tablet screens */
+		display: block;
+	}
+
+	.custom-shape-divider-bottom-1697262836 svg {
+		/* Adjust the dimensions for mobile and tablet view */
+		width: calc(263% + 1.3px);
+		height: 144px;
+	}
+}
+
+/** Hide on non-mobile (desktop) view **/
+@media (min-width: 1024px) {
+	.custom-shape-divider-bottom-1697262836 {
+		display: none;
+	}
+}
