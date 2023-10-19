@@ -7,7 +7,7 @@ export default {
 				"purple-blue": "#1D299A",
 			},
 			backgroundColor: {
-				body: "#F4ECEC",
+				bodyColour: "#F4ECEC",
 			},
 			fontFamily: {
 				sans: ["Poppins", "Roboto", "sans"],

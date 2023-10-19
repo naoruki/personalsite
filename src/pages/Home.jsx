@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 const Home = () => {
 	return (
 		<>
-			<div className="flex items-center justify-center pt-64 lg:pt-96 ">
+			<div className="flex items-center justify-center pt-64 lg:pt-64 ">
 				<p className="text-4xl md:text-6xl flex items-center">
 					<span className="mr-2">
 						<Icon icon="ph:arrow-right-bold" />
@@ -14,6 +14,9 @@ const Home = () => {
 			</div>
 			<p className=" text-xl ">
 				"An Inspiring Web Developer and UX/UI Designer from Singapore"
+			</p>
+			<p className=" text-xl text-red-800 font-extrabold ">
+				I'm currently seeking for new opportunities!
 			</p>
 			<section className="flex justify-center space-x-4 pt-2.5">
 				<a
@@ -31,6 +34,7 @@ const Home = () => {
 					<Icon className="text-4xl" icon="mingcute:github-fill" />
 				</a>
 			</section>
+			<p className=" text-xl text-red-800  ">Let's connect! </p>
 
 			<div className="custom-shape-divider-bottom-1697258373">
 				<svg

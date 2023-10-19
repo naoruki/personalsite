@@ -99,6 +99,28 @@ nav ul li a:hover:before {
 .custom-shape-divider-bottom-1697262836 .shape-fill {
 	fill: #9d8787;
 }
+.skills {
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.uiux {
+    background: #DBCCCC;
+}
+.javascript {
+    background: #9D8787;
+}
+.css {
+    background: #ADADAD;
+}
+.skills-tag {
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    padding: 5px 12px;
+    width: auto;
+}
 
 /** For mobile and tablet devices (e.g., iPad Mini) **/
 @media (max-width: 1023px) {

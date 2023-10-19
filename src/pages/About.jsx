@@ -1,3 +1,4 @@
+import Button from "react-bootstrap/Button";
 const About = () => {
 	return (
 		<>
@@ -20,7 +21,28 @@ const About = () => {
 							I have some years of experience in application <s>desktop</s>{" "}
 							support and back-end development.
 						</p>
-						<div className="pt-8">Skills</div>
+						<div className="pt-8 justify-center">
+							<Button variant="outline-secondary" size="lg">
+								Download Resume
+							</Button>{" "}
+						</div>
+						<div className="pt-8">
+							<p>Skills</p>
+						</div>
+						<div className="skills pt-8">
+							<div className="skills-tag uiux">
+								<p>PHP</p>
+							</div>
+							<div className="skills-tag javascript">
+								<p>Javascript</p>
+							</div>
+							<div className="skills-tag css">
+								<p>CSS</p>
+							</div>
+							<div className="skills-tag css">
+								<p>HTML5</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
