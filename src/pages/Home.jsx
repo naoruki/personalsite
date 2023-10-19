@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import ReactTyped from "react-typed";
+
 
 const Home = () => {
 	return (
@@ -13,12 +13,7 @@ const Home = () => {
 				</p>
 			</div>
 			<p className=" text-xl ">
-				<ReactTyped
-					strings={[
-						"An Inspiring Web Developer and UX/UI Designer from Singapore",
-					]}
-					typeSpeed={100}
-				/>
+				"An Inspiring Web Developer and UX/UI Designer from Singapore",
 			</p>
 			<section className="flex justify-center space-x-4 pt-2.5">
 				<a
