@@ -1,6 +1,5 @@
 import { Icon } from "@iconify/react";
 
-
 const Home = () => {
 	return (
 		<>
@@ -9,11 +8,12 @@ const Home = () => {
 					<span className="mr-2">
 						<Icon icon="ph:arrow-right-bold" />
 					</span>
-					Hi, I'm <span className="text-purple-blue ml-2">Cornelia 👩🏻‍💻</span>
+					Hi, I'm <span className="text-purple-blue ml-2">Cornelia </span>
+					👩🏻‍💻
 				</p>
 			</div>
 			<p className=" text-xl ">
-				"An Inspiring Web Developer and UX/UI Designer from Singapore",
+				"An Inspiring Web Developer and UX/UI Designer from Singapore"
 			</p>
 			<section className="flex justify-center space-x-4 pt-2.5">
 				<a
