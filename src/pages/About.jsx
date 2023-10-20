@@ -13,9 +13,11 @@ const About = () => {
 						<p className="text-4xl">About</p>
 						<p className="pt-8 text-2xl">
 							I'm currently in the midst of a career transition with a passion
-							for web development. I'm pursuing part-time studies at Republic
-							Polytechnic in Specialist Diploma program for User Experience in
-							Infocomm Technology.
+							for web development.
+							<p>
+								Pursuing part-time studies at Republic Polytechnic in Specialist
+								Diploma program for User Experience in Infocomm Technology.
+							</p>
 						</p>
 						<p className="text-2xl">
 							I have some years of experience in application <s>desktop</s>{" "}
