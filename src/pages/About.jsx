@@ -32,7 +32,7 @@ const About = () => {
 							<p>Skills</p>
 						</div>
 						<div className="skills pt-8">
-							<div className="skills-tag uiux">
+							<div className="skills-tag php">
 								<p>PHP</p>
 							</div>
 							<div className="skills-tag javascript">
@@ -41,8 +41,23 @@ const About = () => {
 							<div className="skills-tag css">
 								<p>CSS</p>
 							</div>
-							<div className="skills-tag css">
+							<div className="skills-tag html5">
 								<p>HTML5</p>
+							</div>
+							<div className="skills-tag bootstrap">
+								<p>BOOTSTRAP</p>
+							</div>
+							<div className="skills-tag mysql">
+								<p>MYSQL</p>
+							</div>
+							<div className="skills-tag database">
+								<p>DATABASE</p>
+							</div>
+							<div className="skills-tag figma">
+								<p>FIGMA</p>
+							</div>
+							<div className="skills-tag jquery">
+								<p>JQUERY</p>
 							</div>
 						</div>
 					</div>

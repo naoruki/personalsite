@@ -56,14 +56,23 @@ nav ul li a:hover:before {
     flex-wrap: wrap;
     padding: 20px 0;
 }
-.uiux {
+.php,.html5 {
     background: #DBCCCC;
 }
-.javascript {
+.javascript,.jquery {
     background: #9D8787;
 }
 .css {
     background: #ADADAD;
+}
+.bootstrap,.figma{
+	background:#F1DEDE ;
+}
+.mysql{
+	background:#BABBD2 ;
+}
+.database{
+	background:#DEBFBF ;
 }
 .skills-tag {
     font-size: 18px;
